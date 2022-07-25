@@ -43,4 +43,7 @@
 </ol>
 
 在Kaggle上实际运行自写模型训练过程证明可以跑的通，其log信息存储在"Log of training process of MyInceptionv3.txt"文件中。
+需要说明的是，由于没有途径使用ImageNet完整数据集训练，我使用了kaggle上“imagenet mini”数据集训练网络。
+但由于数据集自身1000类共34745张训练集图片(每个类只有35张左右图片)，导致模型训练效果欠佳。
+所以作业中指上传训练日志(Log of training process of MyInceptionv3.txt)和训练好的权重文件(MyInceptionV3.pth)，证明模型可以跑的通且可以完成所有功能。
 
